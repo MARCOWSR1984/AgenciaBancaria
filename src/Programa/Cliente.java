@@ -8,6 +8,10 @@ public class Cliente {
   private String cpf;
   private String email;
 
+  public Cliente() {
+
+  }
+
   public Cliente(String nome, String cpf, String email) {
     this.nome = nome;
     this.cpf = cpf;
